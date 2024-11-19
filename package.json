@@ -1,0 +1,30 @@
+{
+  "name": "quizlet-to-docx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "1.7.7",
+    "docx": "^9.0.3",
+    "dotenv": "16.4.5",
+    "express": "4.21.1",
+    "flatted": "^3.3.1",
+    "puppeteer": "^23.8.0",
+    "puppeteer-extra": "3.3.6",
+    "puppeteer-extra-plugin-stealth": "2.11.2"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/node": "22.9.0",
+    "typescript": "5.6.3"
+  }
+}
